@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究参考文献一覧 | Multi-Agent Systems & Ethical Constraints</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 10px;
+            color: #2c3e50;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            background: #fff;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        p.description {
+            color: #666;
+            font-size: 0.95em;
+        }
+        ol {
+            background: #fff;
+            padding: 20px 20px 20px 40px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .title {
+            font-weight: bold;
+        }
+        .authors {
+            color: #555;
+        }
+        .journal {
+            font-style: italic;
+            color: #777;
+        }
+        .link {
+            display: inline-block;
+            margin-top: 3px;
+            font-size: 0.85em;
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e8f4f8;
+            color: #2980b9;
+            padding: 2px 8px;
+            font-size: 0.75em;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>研究参考文献一覧</h1>
+    <p class="description">
+        本ページは、マルチエージェントシステム（MAS）における集団形成、倫理的制約、複雑ネットワーク、および計算量・最適化に関する参考文献（古典から現代まで）をまとめたものです。すべてオープンアクセス（arXiv, PNAS, Open Access Journal等）で閲覧可能です。
+    </p>
+
+    <h2>1. ゲーム理論・集団形成 (Game Theory & Multi-Agent Coalition Formation)</h2>
+    <ol>
+        <li>
+            <span class="authors">Nash, J.</span> (1950). 
+            <span class="title">Equilibrium points in n-person games</span>. 
+            <span class="journal">Proceedings of the National Academy of Sciences (PNAS)</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://www.pnas.org/doi/10.1073/pnas.36.1.48" target="_blank"> [Open Access / PNAS]</a>
+        </li>
+        <li>
+            <span class="authors">Shehory, O., & Kraus, S.</span> (1998). 
+            <span class="title">Methods for task allocation via coalitions in distributed agent environments</span>. 
+            <span class="journal">Artificial Intelligence</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://www.sciencedirect.com/science/article/pii/S000437029800010X" target="_blank"> [Open Access / ScienceDirect]</a>
+        </li>
+        <li>
+            <span class="authors">Sandholm, T. W., Larson, K., Andersson, M., Shehory, O., & Tohmé, F.</span> (1999). 
+            <span class="title">Coalition structure generation with worst case guarantees</span>. 
+            <span class="journal">Artificial Intelligence</span>.
+            <span class="tag">基礎</span><br>
+            <a class="link" href="https://www.sciencedirect.com/science/article/pii/S0004370298001062" target="_blank"> [Open Access / AAAI/ScienceDirect]</a>
+        </li>
+        <li>
+            <span class="authors">Rahwan, T., Michalak, T. P., Wooldridge, M., & Jennings, N. R.</span> (2015). 
+            <span class="title">Coalition formation games: A survey</span>. 
+            <span class="journal">Artificial Intelligence</span>.
+            <span class="tag">サーベイ</span><br>
+            <a class="link" href="https://arxiv.org/abs/1504.05380" target="_blank"> [arXiv:1504.05380]</a>
+        </li>
+    </ol>
+
+    <h2>2. 複雑ネットワーク・トポロジー (Complex Networks & Network Topology)</h2>
+    <ol>
+        <li>
+            <span class="authors">Watts, D. J., & Strogatz, S. H.</span> (1998). 
+            <span class="title">Collective dynamics of 'small-world' networks</span>. 
+            <span class="journal">Nature</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://www.nature.com/articles/30918" target="_blank"> [Open Access Archive]</a>
+        </li>
+        <li>
+            <span class="authors">Barabási, A. L., & Albert, R.</span> (1999). 
+            <span class="title">Emergence of scaling in random networks</span>. 
+            <span class="journal">Science</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://arxiv.org/abs/cond-mat/9910332" target="_blank"> [arXiv:cond-mat/9910332]</a>
+        </li>
+        <li>
+            <span class="authors">Pastor-Satorras, R., & Vespignani, A.</span> (2001). 
+            <span class="title">Epidemic spreading in scale-free networks</span>. 
+            <span class="journal">Physical Review Letters</span>.
+            <span class="tag">基礎</span><br>
+            <a class="link" href="https://arxiv.org/abs/cond-mat/0010177" target="_blank"> [arXiv:cond-mat/0010177]</a>
+        </li>
+        <li>
+            <span class="authors">Latora, V., & Marchiori, M.</span> (2001). 
+            <span class="title">Efficient behavior of small-world networks</span>. 
+            <span class="journal">Physical Review Letters</span>.
+            <span class="tag">基礎</span><br>
+            <a class="link" href="https://arxiv.org/abs/cond-mat/0101396" target="_blank"> [arXiv:cond-mat/0101396]</a>
+        </li>
+        <li>
+            <span class="authors">Albert, R., & Barabási, A. L.</span> (2002). 
+            <span class="title">Statistical mechanics of complex networks</span>. 
+            <span class="journal">Reviews of Modern Physics</span>.
+            <span class="tag">サーベイ</span><br>
+            <a class="link" href="https://arxiv.org/abs/cond-mat/0106096" target="_blank"> [arXiv:cond-mat/0106096]</a>
+        </li>
+        <li>
+            <span class="authors">Newman, M. E. J.</span> (2003). 
+            <span class="title">The structure and function of complex networks</span>. 
+            <span class="journal">SIAM Review</span>.
+            <span class="tag">サーベイ</span><br>
+            <a class="link" href="https://arxiv.org/abs/cond-mat/0303516" target="_blank"> [arXiv:cond-mat/0303516]</a>
+        </li>
+    </ol>
+
+    <h2>3. 最適化・計算量 (Optimization, Computational Complexity & Simulated Annealing)</h2>
+    <ol>
+        <li>
+            <span class="authors">Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H., & Teller, E.</span> (1953). 
+            <span class="title">Equation of state calculations by fast computing machines</span>. 
+            <span class="journal">The Journal of Chemical Physics</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://aip.scitation.org/doi/10.1063/1.1699114" target="_blank"> [Open Access PDF]</a>
+        </li>
+        <li>
+            <span class="authors">Kirkpatrick, S., Gelatt, C. D., & Vecchi, M. P.</span> (1983). 
+            <span class="title">Optimization by simulated annealing</span>. 
+            <span class="journal">Science</span>.
+            <span class="tag">古典</span><br>
+            <a class="link" href="https://www.science.org/doi/10.1126/science.220.4598.671" target="_blank"> [Open Access / Science]</a>
+        </li>
+        <li>
+            <span class="authors">Mitzenmacher, M.</span> (2004). 
+            <span class="title">A brief history of generative models for power law distributions</span>. 
+            <span class="journal">Internet Mathematics</span>.
+            <span class="tag">基礎</span><br>
+            <a class="link" href="https://projecteuclid.org/journals/internet-mathematics/volume-1/issue-2/A-Brief-History-of-Generative-Models-for-Power-Law/im/1089229535.full" target="_blank"> [Open Access / Project Euclid]</a>
+        </li>
+    </ol>
+
+    <h2>4. 倫理・公平性・AI正則化 (Ethics, Fairness, Regularization & Multi-Agent RL)</h2>
+    <ol>
+        <li>
+            <span class="authors">Leibo, J. Z., Zambaldi, V., Lanctot, M., Marecki, J., & Graepel, T.</span> (2017). 
+            <span class="title">Multi-agent reinforcement learning in sequential social dilemmas</span>. 
+            <span class="journal">AAMAS</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/1702.02944" target="_blank"> [arXiv:1702.02944]</a>
+        </li>
+        <li>
+            <span class="authors">Hughes, E., Leibo, J. Z., Phillips, M., Tuyls, K., Dueñez-Guzman, E., et al.</span> (2018). 
+            <span class="title">Inequality aversion improves cooperation in multi-agent reinforcement learning</span>. 
+            <span class="journal">NeurIPS</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/1809.05152" target="_blank"> [arXiv:1809.05152]</a>
+        </li>
+        <li>
+            <span class="authors">Jaques, N., Lazaridou, A., Hughes, E., Gulcehre, C., Ortega, P., et al.</span> (2019). 
+            <span class="title">Social influence as an intrinsic motivation for multi-agent deep reinforcement learning</span>. 
+            <span class="journal">ICML</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/1810.08647" target="_blank"> [arXiv:1810.08647]</a>
+        </li>
+        <li>
+            <span class="authors">Jobin, A., Ienca, M., & Vayena, E.</span> (2019). 
+            <span class="title">The global landscape of AI ethics guidelines</span>. 
+            <span class="journal">Nature Machine Intelligence</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/1906.11668" target="_blank"> [arXiv / Open Access]</a>
+        </li>
+        <li>
+            <span class="authors">McKee, K. R., Gisslen, L., Goodman, N., & Leibo, J. Z.</span> (2020). 
+            <span class="title">Social diversity and social preferences in mixed-motive games</span>. 
+            <span class="journal">Preprint</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/2002.02325" target="_blank"> [arXiv:2002.02325]</a>
+        </li>
+        <li>
+            <span class="authors">Zhang, K., Yang, Z., & Başar, T.</span> (2021). 
+            <span class="title">Multi-agent reinforcement learning: A selective overview of theories and algorithms</span>. 
+            <span class="journal">Handbook of Reinforcement Learning and Control</span>.
+            <span class="tag">現代 / サーベイ</span><br>
+            <a class="link" href="https://arxiv.org/abs/1911.10635" target="_blank"> [arXiv:1911.10635]</a>
+        </li>
+        <li>
+            <span class="authors">Köhler, J., Schillinger, M., & Allgöwer, F.</span> (2022). 
+            <span class="title">Regularization and constraint handling in model predictive control and multi-agent systems</span>. 
+            <span class="journal">IEEE Transactions on Automatic Control</span>.
+            <span class="tag">現代</span><br>
+            <a class="link" href="https://arxiv.org/abs/2011.02871" target="_blank"> [arXiv:2011.02871]</a>
+        </li>
+    </ol>
+
+</body>
+</html>
